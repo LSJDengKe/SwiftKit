@@ -7,11 +7,25 @@
 //
 
 import UIKit
+import SwiftKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        print("hjklkjhjhkn---\(kScreenWidth)")
+//        let image = SwiftImage.image(name: <#T##String#>)
+        
+//        var testArray = [1,2,3,4]
+//        
+//        var t = testArray[2]
+//        t = 5
+        var frames: [Int] = Array(0..<100).map { $0 * 0 }
+        debugPrint("ughjogfghjk----\(frames)")
+        debugPrint("ughjogfghjk----\(App.iPhone6P_scape)")
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
